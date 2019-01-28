@@ -1,3 +1,8 @@
-<p>
-  contact works!
-</p>
+<h1>Contact Us</h1>
+<form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+  <h5 *ngIf="success">Your form is valid!</h5>
+
+  <label for="">Name: <input type="text" formControlName="name"></label>
+
+  {{messageForm.controls.name.value}}
+</form>
