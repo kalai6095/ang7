@@ -1,0 +1,26 @@
+header{
+  background:#7700FF;
+}
+header.log{
+  font-weight:bold;
+}
+
+header nav{
+  justify-self: right;
+}
+
+header nav ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+header nav ul li{
+  float:left;
+}
+header nav ul li a{
+  padding:0.5em;
+  text-transform: initial;
+}
+header nav ul li a:hover{
+  background:#8E2BFF;
+}
